@@ -14,10 +14,5 @@ public class MainActivity extends Activity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
     }
-    public void startGame(View view) {
-        Intent i1=new Intent(this,start.class);
-        startActivity(i1);
-    }
-
 }
 
